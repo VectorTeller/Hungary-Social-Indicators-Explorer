@@ -1,1 +1,11 @@
+# R user-specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
 
+# Shiny connect folder
+rsconnect/
+
+# Raw data folder (we don't want to track large raw data files)
+data/raw_data/
