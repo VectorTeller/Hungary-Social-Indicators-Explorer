@@ -10,7 +10,7 @@ An interactive Shiny web application for exploring social, educational, and well
 
 ### Overview
 
-This application provides a user-friendly interface to visualize and analyze relationships within the Hungarian subset of the ESS 2018 dataset. It features an interactive map of Hungary's administrative regions (counties) and a corresponding scatter plot that allows users to explore correlations between different social variables at the individual level.
+This application provides a user-friendly interface to visualize and analyze relationships within the Hungarian subset of the ESS 2018 dataset. It features an interactive map of Hungary's administrative regions (counties) and a corresponding scatter plot that allows users to explore correlations between different social variables, where each dot represents a single person's survey responses.
 
 ![Application Overview](images/01-app-overview.png)
 
