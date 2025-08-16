@@ -12,7 +12,7 @@ An interactive Shiny web application for exploring social, educational, and well
 
 This application provides a user-friendly interface to visualize and analyze relationships within the Hungarian subset of the ESS 2018 dataset. It features an interactive map of Hungary's administrative regions (counties) and a corresponding scatter plot that allows users to explore correlations between different social variables at the individual level.
 
-![Application Overview](01-app-overview.png)
+![Application Overview](images/01-app-overview.png)
 
 ### Key Features
 
@@ -36,8 +36,8 @@ This guide walks you through the main features of the interactive explorer.
     </td>
   </tr>
   <tr>
-    <td width="50%"><img src="02a-select-map-variable.png" alt="Selecting the map variable"></td>
-    <td width="50%"><img src="02b-select-scatter-variable.png" alt="Selecting the scatter plot variable"></td>
+    <td width="50%"><img src="images/02a-select-map-variable.png" alt="Selecting the map variable"></td>
+    <td width="50%"><img src="images/02b-select-scatter-variable.png" alt="Selecting the scatter plot variable"></td>
   </tr>
   <tr>
     <td width="50%" valign="top">
@@ -45,7 +45,7 @@ This guide walks you through the main features of the interactive explorer.
       <p>Hover over any administrative region on the interactive map to see its name, the average value for the selected variable, and the number of survey respondents.</p>
     </td>
     <td width="50%">
-      <img src="03-map-hover.png" alt="Hovering over a map region">
+      <img src="images/03-map-hover.png" alt="Hovering over a map region">
     </td>
   </tr>
   <tr>
@@ -54,43 +54,52 @@ This guide walks you through the main features of the interactive explorer.
       <p>Initially, the scatter plot shows the relationship between variables for all respondents across Hungary, giving you a view of the national picture.</p>
     </td>
     <td width="50%">
-      <img src="04-scatter-national.png" alt="Scatter plot for all of Hungary">
+      <img src="images/04-scatter-national.png" alt="Scatter plot for all of Hungary">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h5>4. Inspect Individual Data (National View)</h5>
+      <p>Even before filtering, you can hover over any data point on the national plot to see the specific values for an individual respondent from anywhere in the country.</p>
+    </td>
+    <td width="50%">
+      <img src="images/04-scatter-national-hover.png" alt="Hovering over a data point on the national plot">
     </td>
   </tr>
    <tr>
     <td width="50%" valign="top">
-      <h5>4. Filter for Local Insights</h5>
+      <h5>5. Filter for Local Insights</h5>
       <p>Click a region on the map to filter the scatter plot. The plot title and the text below the map update to confirm your selection, showing data only for that area.</p>
     </td>
     <td width="50%">
-      <img src="05-scatter-regional.png" alt="Scatter plot filtered for a specific region">
+      <img src="images/05-scatter-regional.png" alt="Scatter plot filtered for a specific region">
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h5>5. Inspect Individual Responses</h5>
-      <p>Hover over any data point in the plot to see the precise values for a single survey respondent, providing the most granular level of detail.</p>
+      <h5>6. Inspect Individual Responses (Regional View)</h5>
+      <p>After filtering, you can again hover over any data point to see the precise values for a single respondent, but this time only from within the selected region.</p>
     </td>
     <td width="50%">
-      <img src="06-scatter-regional-hover-point.png" alt="Hovering over a single data point in the scatter plot">
+      <img src="images/06-scatter-regional-hover-point.png" alt="Hovering over a single data point in the scatter plot">
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h5>6. See the Predicted Trend</h5>
+      <h5>7. See the Predicted Trend</h5>
       <p>Hover over the regression line itself to see the predicted value for the y-axis variable at any point along the x-axis, based on the linear model.</p>
     </td>
     <td width="50%">
-      <img src="07-scatter-regional-hover-trend.png" alt="Hovering over the trend line to see predicted values">
+      <img src="images/07-scatter-regional-hover-trend.png" alt="Hovering over the trend line to see predicted values">
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h5>7. Zoom in for a Closer Look</h5>
+      <h5>8. Zoom in for a Closer Look</h5>
       <p>Use the built-in plot controls to zoom and pan, allowing for a more detailed inspection of the data points within your selected view.</p>
     </td>
     <td width="50%">
-      <img src="08-scatter-regional-zoom.png" alt="Zooming in on the scatter plot">
+      <img src="images/08-scatter-regional-zoom.png" alt="Zooming in on the scatter plot">
     </td>
   </tr>
 </table>
@@ -138,3 +147,4 @@ The data used in this application is a subset from the **European Social Survey 
 The regional boundaries are based on the official NUTS 3 (Nomenclature of Territorial Units for Statistics) classification, which corresponds to the counties of Hungary. For more information on the ESS, please visit their official website: [europeansocialsurvey.org](https://www.europeansocialsurvey.org/)
 
 ### Project Structure
+
