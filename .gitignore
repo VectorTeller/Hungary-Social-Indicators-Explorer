@@ -2,10 +2,6 @@
 .Rproj.user
 .Rhistory
 .RData
-.Ruserdata
 
-# Shiny connect folder
-rsconnect/
-
-# Raw data folder (we don't want to track large raw data files)
+# Raw data folder - DO NOT TRACK THIS
 data/raw_data/
