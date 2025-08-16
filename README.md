@@ -148,7 +148,7 @@ The regional boundaries are based on the official NUTS 3 (Nomenclature of Territ
 
 ### Project Structure
 
-.
+```
 ├── .gitignore
 ├── LICENSE
 ├── README.md
@@ -168,4 +168,5 @@ The regional boundaries are based on the official NUTS 3 (Nomenclature of Territ
     ├── 06-scatter-regional-hover-point.png
     ├── 07-scatter-regional-hover-trend.png
     └── 08-scatter-regional-zoom.png
+```
 
