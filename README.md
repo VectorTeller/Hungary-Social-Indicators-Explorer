@@ -148,3 +148,24 @@ The regional boundaries are based on the official NUTS 3 (Nomenclature of Territ
 
 ### Project Structure
 
+.
+├── .gitignore
+├── LICENSE
+├── README.md
+├── preprocess_data.R
+├── shiny_app.R
+├── data/
+│   ├── df_sel.Rds
+│   └── nuts3.Rds
+└── images/
+    ├── 01-app-overview.png
+    ├── 02a-select-map-variable.png
+    ├── 02b-select-scatter-variable.png
+    ├── 03-map-hover.png
+    ├── 04-scatter-national-hover.png
+    ├── 04-scatter-national.png
+    ├── 05-scatter-regional.png
+    ├── 06-scatter-regional-hover-point.png
+    ├── 07-scatter-regional-hover-trend.png
+    └── 08-scatter-regional-zoom.png
+
